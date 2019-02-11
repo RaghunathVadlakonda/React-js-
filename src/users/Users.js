@@ -10,9 +10,10 @@ class Users extends Component {
             <div>  
             <h3>{this.props.title}</h3>
             <User> React </User>
-            <User> React-Native </User>
-            <User> Node </User>
-            <User> MongoDB </User>
+            <User version = "16.8"> React-Native </User>
+            <User version = "5.11"> Node </User>
+            <User ></User>
+            
             </div>
         );
     }
