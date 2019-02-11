@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Users />
+        <Users title = "Technologies used for Web and Mobile Development" />
       </div>
     );
   }

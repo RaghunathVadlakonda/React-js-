@@ -7,7 +7,13 @@ class Users extends Component {
     render() {
         return (
             //<div> Hi!, Welcome to Second Component </div>
-            <User />
+            <div>  
+            <h3>{this.props.title}</h3>
+            <User> React </User>
+            <User> React-Native </User>
+            <User> Node </User>
+            <User> MongoDB </User>
+            </div>
         );
     }
 }

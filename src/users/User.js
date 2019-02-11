@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-const User = () => {
+const User = (props) => {
     return (
-        <div> Hi! This is Single User Component </div>
+        <div> {props.children} </div>
     );
 }
 
